@@ -13,7 +13,7 @@ const $product = (_) => {
                                 <div class="card-body-overlay">
                                     <p class="product-category">Category:${category}</p>
                                     <p class="product-price">Price:${price}</p>
-                                    <p class="product-discaunt">Discount Percentage: ${discountPercentage}</p>  
+                                    <p class="product-discount">Discount Percentage: ${discountPercentage}</p>  
                                     <a href="#" class="btn btn-primary">Buy Now</a>
                                 </div>
                             </div>
