@@ -1,0 +1,44 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header-container {
+  background-color: #e7e1e1;
+}
+
+.product-container {
+  max-width: 1600px;
+}
+
+.card-body {
+  position: relative;
+  opacity: 1;
+  transition: ease-in-out 0.3s;
+}
+
+.card-body-overlay {
+  position: absolute;
+  background-color: white;
+  left: 0;
+  bottom: 0;
+  margin-top: 1rem;
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+  padding: 1rem 3rem 1rem 0;
+  transition: ease-in-out 0.3s;
+  opacity: 0;
+}
+
+.card:hover {
+  cursor: pointer;
+}
+
+.card:hover .card-body-overlay {
+  opacity: 1;
+}
+
+.footer-container {
+  background-color: #d69b7f;
+}/*# sourceMappingURL=style.css.map */
