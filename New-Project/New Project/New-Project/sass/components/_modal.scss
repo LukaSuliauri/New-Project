@@ -1,0 +1,22 @@
+.product-modal{
+// display:none;
+position:fixed;
+z-index: 2;
+left:0;
+top:0;
+height: 100%;
+width: 100%;
+overflow: auto;
+background-color: rgba(0, 0, 0, 0.5);
+    &__content{
+        background-color: white;
+        width:50%;
+        margin:25% auto;
+    }
+}
+
+.close{
+    color:#707070;
+    float:right;
+    font-size:2rem;
+}
